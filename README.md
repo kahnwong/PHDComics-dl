@@ -1,4 +1,4 @@
-# PHDComics_crawler
+# PHDComics-dl
 A basic Python script to download PHD Comics.
 
 ----
