@@ -1,5 +1,5 @@
 # PHDComics_crawler
-A basic Python script to extract PHD Comic comics url.
+A basic Python script to download PHD Comics.
 
 ----
 
