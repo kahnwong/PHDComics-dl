@@ -5,7 +5,7 @@ import urllib.request
 
 
 
-def phdcomics_crawler(int_page, max_pages):
+def phdcomics_dl(int_page, max_pages):
     actual_comics = []
     page = int_page
     while page <= max_pages:
@@ -30,8 +30,8 @@ def phdcomics_crawler(int_page, max_pages):
     # return actual_comics
 
     for index, comic in enumerate(actual_comics, int_page):
-        urllib.request.urlretrieve(comic, str(index)+'.jpg')
+        urllib.request.urlretrieve(comic, str(index)+'.gif')
 
     print("Download completed!")
 
-phdcomics_crawler(401, 402)
+phdcomics_dl(401, 402)
