@@ -31,7 +31,6 @@ def phdcomics_dl(int_page, max_pages):
 
     for index, comic in enumerate(actual_comics, int_page):
         urllib.request.urlretrieve(comic, str(index)+'.gif')
-
-    print("Download completed!")
+        print("Download", comic, "completed!")
 
 phdcomics_dl(401, 402)
